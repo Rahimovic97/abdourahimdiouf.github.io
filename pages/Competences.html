@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compétences | Abdourahim Diouf</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    body{
+      font-family: 'Poppins', sans-serif;
+      margin:0;
+      background:#0f172a;
+      color:#f8fafc;
+    }
+
+    header{
+      text-align:center;
+      padding:80px 20px 40px;
+    }
+
+    header h1{
+      font-size:2.5rem;
+      margin-bottom:10px;
+    }
+
+    header p{
+      max-width:700px;
+      margin:auto;
+      color:#cbd5e1;
+      line-height:1.8;
+    }
+
+    .skills-container{
+      width:90%;
+      max-width:1200px;
+      margin:50px auto;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+      gap:30px;
+    }
+
+    .skill-card{
+      background:#1e293b;
+      border-radius:18px;
+      padding:28px;
+      border:1px solid #334155;
+      transition:transform .3s ease, box-shadow .3s ease;
+    }
+
+    .skill-card:hover{
+      transform:translateY(-6px);
+      box-shadow:0 12px 30px rgba(0,0,0,.35);
+    }
+
+    .skill-card h2{
+      color:#38bdf8;
+      margin-top:0;
+      margin-bottom:18px;
+      font-size:1.4rem;
+    }
+
+    .skill-card h3{
+      margin-bottom:8px;
+      color:#f8fafc;
+      font-size:1rem;
+    }
+
+    .skill-card p{
+      color:#cbd5e1;
+      font-size:.95rem;
+      line-height:1.7;
+      margin-bottom:18px;
+    }
+
+    .tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .tag{
+      background:#0ea5e9;
+      color:#fff;
+      padding:8px 14px;
+      border-radius:999px;
+      font-size:.85rem;
+      font-weight:600;
+    }
+
+    .projects{
+      margin-top:16px;
+      color:#94a3b8;
+      font-size:.9rem;
+    }
+
+    footer{
+      text-align:center;
+      padding:40px 20px;
+      color:#94a3b8;
+      border-top:1px solid #334155;
+      margin-top:40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mes compétences</h1>
+  <p>
+    Technologies et outils que j’utilise dans mes projets académiques et personnels,
+    avec un intérêt particulier pour le développement de solutions basées sur
+    l’intelligence artificielle et le Machine Learning.
+  </p>
+</header>
+
+<section class="skills-container">
+
+  <div class="skill-card">
+    <h2>Programmation</h2>
+
+    <h3>Python</h3>
+    <p>Langage principal utilisé pour le développement web, l’automatisation et les projets d’intelligence artificielle.</p>
+    <div class="tags">
+      <span class="tag">Python</span>
+      <span class="tag">Flask</span>
+      <span class="tag">Pytest</span>
+    </div>
+    <div class="projects"><strong>Projets :</strong> Machine Learning, Flask, Cabinet dentaire</div>
+
+    <h3>C++</h3>
+    <p>Programmation orientée objet, structures de données et algorithmique.</p>
+    <div class="tags">
+      <span class="tag">C++</span>
+      <span class="tag">POO</span>
+      <span class="tag">Algorithmes</span>
+    </div>
+    <div class="projects"><strong>Projets :</strong> Projets universitaires en C++</div>
+  </div>
+
+  <div class="skill-card">
+    <h2>Intelligence artificielle & Data</h2>
+
+    <h3>Machine Learning</h3>
+    <p>Développement, entraînement et évaluation de modèles de classification.</p>
+    <div class="tags">
+      <span class="tag">Scikit-learn</span>
+      <span class="tag">Classification</span>
+      <span class="tag">Validation croisée</span>
+      <span class="tag">Grid Search</span>
+    </div>
+
+    <h3>Deep Learning</h3>
+    <p>Conception et expérimentation de réseaux de neurones et CNN.</p>
+    <div class="tags">
+      <span class="tag">TensorFlow</span>
+      <span class="tag">Keras</span>
+      <span class="tag">CNN</span>
+    </div>
+
+    <h3>Analyse de données</h3>
+    <p>Préparation, nettoyage et manipulation de données pour l’apprentissage automatique.</p>
+    <div class="tags">
+      <span class="tag">Pandas</span>
+      <span class="tag">NumPy</span>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <h2>Développement Web</h2>
+
+    <h3>Flask</h3>
+    <p>Développement d’applications web en Python et intégration avec des bases de données.</p>
+    <div class="tags">
+      <span class="tag">Flask</span>
+      <span class="tag">API</span>
+      <span class="tag">Peewee</span>
+      <span class="tag">Pytest</span>
+    </div>
+
+    <h3>HTML / CSS / JavaScript</h3>
+    <p>Conception d’interfaces web modernes, responsives et orientées expérience utilisateur.</p>
+    <div class="tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <h2>Bases de données</h2>
+
+    <h3>SQL</h3>
+    <p>Conception, interrogation et manipulation de bases de données relationnelles.</p>
+    <div class="tags">
+      <span class="tag">SQL</span>
+      <span class="tag">Requêtes</span>
+      <span class="tag">Jointures</span>
+    </div>
+
+    <h3>MySQL</h3>
+    <p>Modélisation de schémas relationnels, création de tables, relations et contraintes d’intégrité.</p>
+    <div class="tags">
+      <span class="tag">MySQL</span>
+      <span class="tag">Modélisation</span>
+      <span class="tag">Clés étrangères</span>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <h2>Outils & Environnement</h2>
+
+    <h3>Git & GitHub</h3>
+    <p>Gestion de versions, suivi des modifications et collaboration sur des projets logiciels.</p>
+    <div class="tags">
+      <span class="tag">Git</span>
+      <span class="tag">GitHub</span>
+      <span class="tag">Version Control</span>
+    </div>
+
+    <h3>Linux & Jupyter</h3>
+    <p>Environnement de développement, expérimentation et exécution de projets IA.</p>
+    <div class="tags">
+      <span class="tag">Linux</span>
+      <span class="tag">Jupyter Notebook</span>
+      <span class="tag">VS Code</span>
+      <span class="tag">PyCharm</span>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Abdourahim Diouf — Portfolio IA & Développement logiciel
+</footer>
+
+</body>
+</html>
