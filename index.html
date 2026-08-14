@@ -2,17 +2,20 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Abdourahim Diouf – Développeur & IA appliquée</title>
+    <title>Abdourahim Diouf - Développeur & IA appliquée</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Site personnel d'Abdourahim Diouf, étudiant en informatique (IA appliquée) et développeur junior.">
+    <meta name="description" content="Site personnel d'Abdourahim Diouf, étudiant en informatique (IA appliquée) et développeur junior à Chicoutimi, QC.">
+    <meta property="og:title" content="Abdourahim Diouf – Développeur & IA appliquée">
+    <meta property="og:description" content="Étudiant en informatique (IA appliquée) à l'UQAC. Développement web, automatisation et solutions IA.">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header class="site-header">
+<header class="site-header" id="siteHeader">
     <div class="container header-content">
         <div class="logo">
             <span class="logo-main">Abdourahim Diouf</span>
-            <span class="logo-sub">IA appliquée & développement</span>
+            <span class="logo-sub">IA appliquée &amp; développement</span>
         </div>
         <nav class="nav">
             <a href="#hero">Accueil</a>
@@ -22,98 +25,128 @@
             <a href="#experience">Expérience</a>
             <a href="#contact">Contact</a>
         </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span>
+        </button>
     </div>
 </header>
 
 <main>
-    <!-- SECTION HERO -->
     <section id="hero" class="hero">
         <div class="container hero-grid">
             <div class="hero-text">
-                <p class="tag">Étudiant en informatique | Intelligence artificielle & Machine Learning</p>
+                <p class="eyebrow">Étudiant en informatique — IA appliquée &amp; Machine Learning</p>
                 <h1>Je transforme des problèmes réels en solutions logicielles intelligentes.</h1>
                 <p class="hero-desc">
-                    Je développe des solutions logicielles et des applications basées sur l’intelligence artificielle
-                    pour résoudre des problèmes concrets. Actuellement étudiant en Intelligence artificielle appliquée à l’UQAC,
-                    je recherche un stage en IA / Machine Learning afin de contribuer à des projets réels et d’approfondir mes compétences 
-                    en développement logiciel, traitement des données et intégration de systèmes intelligents.
+                    Je développe des solutions logicielles et des applications basées sur l'intelligence
+                    artificielle pour résoudre des problèmes concrets. Actuellement étudiant en intelligence
+                    artificielle appliquée à l'UQAC, je recherche un stage en IA / Machine Learning afin de
+                    contribuer à des projets réels et d'approfondir mes compétences en développement logiciel,
+                    traitement des données et intégration de systèmes intelligents.
                 </p>
                 <div class="hero-actions">
-                    <a class="btn primary" href="CV/CV_Abdourahim_Diouf.pdf" target="_blank">
-                        Télécharger mon CV
-                    </a>
-                    <a class="btn secondary" href="#projects">
-                        Voir mes projets
-                    </a>
+                    <a class="btn primary" href="CV/CV_Abdourahim_Diouf.pdf" target="_blank">Télécharger mon CV</a>
+                    <a class="btn secondary" href="#projects">Voir mes projets</a>
                 </div>
             </div>
             <div class="hero-side">
-                <div class="hero-card">
-                    <h2>Profil rapide</h2>
-                    <ul>
-                        <li><strong>Programme :</strong> Baccalauréat en informatique (IA appliquée) – UQAC</li>
-                        <li><strong>Poste actuel :</strong> Assistant chef d’équipe – Dollarama</li>
-                        <li><strong>Objectif :</strong> Décrocher un stage ou emploi en Intelligence artificielle ou en Machine Learning</li>
-                        <li><strong>Localisation :</strong> Chicoutimi, QC</li>
-                    </ul>
+                <div class="spec-card">
+                    <div class="spec-card-head">
+                        <span>Profil</span>
+                        <span class="spec-dot" aria-hidden="true"></span>
+                    </div>
+                    <dl class="spec-rows">
+                        <div class="spec-row">
+                            <dt>Programme</dt>
+                            <dd>Bacc. informatique — IA appliquée, UQAC</dd>
+                        </div>
+                        <div class="spec-row">
+                            <dt>Poste actuel</dt>
+                            <dd>Assistant chef d'équipe, Dollarama</dd>
+                        </div>
+                        <div class="spec-row">
+                            <dt>Objectif</dt>
+                            <dd>Stage en IA / Machine Learning</dd>
+                        </div>
+                        <div class="spec-row">
+                            <dt>Localisation</dt>
+                            <dd>Chicoutimi, QC</dd>
+                        </div>
+                        <div class="spec-row">
+                            <dt>Stack</dt>
+                            <dd>Python, SQL, Flask, C++</dd>
+                        </div>
+                    </dl>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION A PROPOS -->
     <section id="about" class="section">
         <div class="container">
-            <h2>À propos de moi</h2>
-            <p>
-                Je m’appelle Abdourahim Diouf et je suis étudiant au baccalauréat en informatique à l’Université du Québec à Chicoutimi (UQAC),
-                 en concentration Intelligence artificielle appliquée. Je m’intéresse particulièrement au Machine Learning, au développement logiciel 
-                 et à la création de solutions technologiques capables de résoudre des problèmes concrets.
-            </p>
-            <p>
-               Au fil de mon parcours, j’ai développé des compétences en Python, C++, SQL, développement web, bases de données et intelligence artificielle
-                à travers des projets universitaires et personnels. J’aime apprendre de nouvelles technologies, comprendre leur fonctionnement en profondeur
-                 et les appliquer dans des contextes réels.
-            </p>
-            <p>
-                En parallèle de mes études, je développe un projet entrepreneurial personnel autour du développement web, de l’automatisation et de l’intégration 
-                de solutions basées sur l’intelligence artificielle pour les entreprises.
-            </p>
-            <p>
-                Mon objectif est d’obtenir un stage en Intelligence artificielle ou en Machine Learning afin de contribuer à des projets concrets, approfondir mes 
-                compétences techniques et évoluer vers une carrière dans le développement de solutions intelligentes et innovantes.
-            </p>
+            <p class="eyebrow">À propos</p>
+            <h2>Un parcours entre rigueur académique et projets concrets</h2>
+            <div class="about-grid">
+                <div>
+                    <p>
+                        Je m'appelle Abdourahim Diouf et je suis étudiant au baccalauréat en informatique à
+                        l'Université du Québec à Chicoutimi (UQAC), en concentration intelligence artificielle
+                        appliquée. Je m'intéresse particulièrement au Machine Learning, au développement logiciel
+                        et à la création de solutions technologiques capables de résoudre des problèmes concrets.
+                    </p>
+                    <p>
+                        Au fil de mon parcours, j'ai développé des compétences en Python, C++, SQL, développement
+                        web, bases de données et intelligence artificielle à travers des projets universitaires et
+                        personnels. J'aime apprendre de nouvelles technologies, comprendre leur fonctionnement en
+                        profondeur et les appliquer dans des contextes réels.
+                    </p>
+                    <p>
+                        En parallèle de mes études, je développe un projet entrepreneurial personnel autour du
+                        développement web, de l'automatisation et de l'intégration de solutions basées sur
+                        l'intelligence artificielle pour les entreprises.
+                    </p>
+                </div>
+                <div class="stat-list">
+                    <div class="stat-item">
+                        <span class="num">3e</span>
+                        <span class="label">Année — UQAC</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">4+</span>
+                        <span class="label">Projets réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">1</span>
+                        <span class="label">Client réel livré</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">3</span>
+                        <span class="label">Langages maîtrisés</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-   <!-- SECTION PROJETS -->
-<section id="projects" class="section">
-    <div class="container">
+    <section id="projects" class="section alt">
+        <div class="container">
+            <p class="eyebrow">Projets</p>
+            <h2>Une sélection de projets académiques et personnels</h2>
+            <p class="section-intro">
+                Réalisés dans le cadre de ma formation en informatique et de mes initiatives personnelles, avec
+                pour objectif de développer des solutions concrètes combinant développement logiciel, bases de
+                données et intelligence artificielle.
+            </p>
 
-        <h2>Projets</h2>
-
-        <p class="section-intro">
-            Une sélection de projets académiques et personnels réalisés dans le cadre de ma formation en informatique
-            et de mes initiatives personnelles. Mon objectif est de développer des solutions concrètes combinant
-            développement logiciel, bases de données et intelligence artificielle.
-        </p>
-
-        <!-- Projet phare -->
-        <article class="featured-project">
-
-            <div class="featured-project-content">
-
+            <article class="featured-project">
                 <span class="featured-badge">Projet phare</span>
-
                 <h3>Plateforme numérique pour un cabinet dentaire</h3>
-
                 <p>
-                    Développement d’une solution numérique destinée à un cabinet dentaire réel, comprenant
-                    un site web professionnel, un système de prise de rendez-vous en ligne, la consultation
-                    des disponibilités, un assistant conversationnel basé sur l’intelligence artificielle et
-                    l’automatisation de certaines tâches administratives.
+                    Développement d'une solution numérique destinée à un cabinet dentaire réel, comprenant un
+                    site web professionnel, un système de prise de rendez-vous en ligne, la consultation des
+                    disponibilités, un assistant conversationnel basé sur l'intelligence artificielle et
+                    l'automatisation de certaines tâches administratives.
                 </p>
-
                 <div class="project-tags">
                     <span>Python</span>
                     <span>Flask</span>
@@ -121,132 +154,105 @@
                     <span>IA conversationnelle</span>
                     <span>Développement web</span>
                 </div>
+                <a href="Projets/Cabinet%20Dentaire/index.html" class="project-btn">Voir le projet →</a>
+            </article>
 
-                <a href="../Projets/Cabinet%20Dentaire/index.html" class="project-btn">
-                    Voir le projet
-                </a>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Projet Machine Learning</h3>
+                    <p>
+                        Développement et évaluation de modèles de classification à partir du jeu de données
+                        Fashion-MNIST, avec expérimentation de réseaux de neurones convolutifs (CNN) et
+                        optimisation des hyperparamètres.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                    </div>
+                    <a href="Projets/Machine%20Learning/index.html" class="project-link">Voir le projet →</a>
+                </article>
 
+                <article class="project-card">
+                    <h3>Application web avec Flask</h3>
+                    <p>
+                        Développement d'une application web en Python avec Flask, intégration d'une base de
+                        données, création d'API et mise en place de tests automatisés avec Pytest.
+                    </p>
+                    <div class="project-tags">
+                        <span>Flask</span>
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Pytest</span>
+                    </div>
+                    <a href="Projets/Flask/index.html" class="project-link">Voir le projet →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Projet C++</h3>
+                    <p>
+                        Développement d'une application en C++ mettant en œuvre la programmation orientée objet,
+                        les structures de données et des algorithmes fondamentaux.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>POO</span>
+                        <span>Algorithmes</span>
+                    </div>
+                    <a href="Projets/Cpp/index.html" class="project-link">Voir le projet →</a>
+                </article>
             </div>
-
-        </article>
-
-        <!-- Grille des autres projets -->
-        <div class="projects-grid">
-
-            <article class="project-card">
-
-                <h3>Projet Machine Learning</h3>
-
-                <p>
-                    Développement et évaluation de modèles de classification à partir du jeu de données
-                    Fashion-MNIST, avec expérimentation de réseaux de neurones convolutifs (CNN) et
-                    optimisation des hyperparamètres.
-                </p>
-
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>Scikit-learn</span>
-                    <span>TensorFlow</span>
-                    <span>Keras</span>
-                </div>
-
-                <a href="../Projets/Machine%20Learning/index.html" class="project-link">
-                    Voir le projet
-                </a>
-
-            </article>
-
-            <article class="project-card">
-
-                <h3>Application Web avec Flask</h3>
-
-                <p>
-                    Développement d’une application web en Python avec Flask, intégration d’une base de données,
-                    création d’API et mise en place de tests automatisés avec Pytest.
-                </p>
-
-                <div class="project-tags">
-                    <span>Flask</span>
-                    <span>Python</span>
-                    <span>SQL</span>
-                    <span>Pytest</span>
-                </div>
-
-                <a href="../Projets/Flask/index.html" class="project-link">
-                    Voir le projet
-                </a>
-
-            </article>
-
-            <article class="project-card">
-
-                <h3>Projet C++</h3>
-
-                <p>
-                    Développement d’une application en C++ mettant en œuvre la programmation orientée objet,
-                    les structures de données et des algorithmes fondamentaux.
-                </p>
-
-                <div class="project-tags">
-                    <span>C++</span>
-                    <span>POO</span>
-                    <span>Algorithmes</span>
-                </div>
-
-                <a href="../Projets/Cpp/index.html" class="project-link">
-                    Voir le projet
-                </a>
-
-            </article>
-
         </div>
+    </section>
 
-    </div>
-</section>
-
-    <!-- SECTION EXPERIENCE -->
-    <section id="experience" class="section alt">
+    <section id="experience" class="section">
         <div class="container">
-            <h2>Expérience</h2>
+            <p class="eyebrow">Expérience</p>
+            <h2>Parcours professionnel</h2>
             <div class="exp-list">
                 <div class="exp-item">
-                    <h3>Assistant chef d’équipe – Dollarama</h3>
-                    <span class="exp-date">Depuis 18 août 2025 – Chicoutimi, QC</span>
-                    <ul>
-                        <li>Supervision de l’équipe et soutien au gérant de magasin</li>
-                        <li>Gestion de la caisse, marchandisage et tenue des rayons</li>
-                        <li>Contribution à la formation des nouveaux employés</li>
-                    </ul>
+                    <span class="exp-date">Depuis le 18 août 2025<br>Chicoutimi, QC</span>
+                    <div>
+                        <h3>Assistant chef d'équipe — Dollarama</h3>
+                        <ul>
+                            <li>Supervision de l'équipe et soutien au gérant de magasin</li>
+                            <li>Gestion de la caisse, marchandisage et tenue des rayons</li>
+                            <li>Contribution à la formation des nouveaux employés</li>
+                        </ul>
+                    </div>
                 </div>
-
                 <div class="exp-item">
-                    <h3>Associé de magasin – Dollarama</h3>
-                    <span class="exp-date">18 août 2024 – 17 août 2025</span>
-                    <ul>
-                        <li>Service à la clientèle et gestion de la caisse</li>
-                        <li>Mise en rayon et entretien</li>
-                    </ul>
+                    <span class="exp-date">18 août 2024 — 17 août 2025</span>
+                    <div>
+                        <h3>Associé de magasin — Dollarama</h3>
+                        <ul>
+                            <li>Service à la clientèle et gestion de la caisse</li>
+                            <li>Mise en rayon et entretien</li>
+                        </ul>
+                    </div>
                 </div>
-
                 <div class="exp-item">
-                    <h3>Conseiller technique / développeur (expériences antérieures)</h3>
                     <span class="exp-date">Avant 2024</span>
-                    <p>
-                        Expériences en développement web/mobile, relation client et support technique
-                        (WOSEC, Saloumtec, Intélcia, etc.), détaillées dans mon CV.
-                    </p>
+                    <div>
+                        <h3>Conseiller technique / développeur — expériences antérieures</h3>
+                        <p>
+                            Expériences en développement web/mobile, relation client et support technique
+                            (WOSEC, Saloumtec, Intélcia, etc.), détaillées dans mon CV.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION CONTACT -->
-    <section id="contact" class="section">
+    <section id="contact" class="section alt">
         <div class="container">
-            <h2>Contact</h2>
+            <p class="eyebrow">Contact</p>
+            <h2>Discutons de votre prochain projet</h2>
             <p class="section-intro">
-                Ouvert aux opportunités de stage, d’emplois d’entrée de niveau en développement ou en IA,
-                et aux collaborations sur des projets technologiques.
+                Ouvert aux opportunités de stage, d'emplois d'entrée de niveau en développement ou en IA, et
+                aux collaborations sur des projets technologiques.
             </p>
             <div class="contact-grid">
                 <div>
@@ -257,10 +263,9 @@
                 <div>
                     <h3>Liens</h3>
                     <ul class="links-list">
-                        <li><a href="https://github.com/Rahimovic97" target="_blank">GitHub – Rahimovic97</a></li>
+                        <li><a href="https://github.com/Rahimovic97" target="_blank">GitHub — Rahimovic97</a></li>
                         <li><a href="https://abdourahimdiouf.github.io" target="_blank">Site personnel</a></li>
                         <li><a href="https://lesentreprisesdiouf.ca" target="_blank">Les Entreprises Diouf</a></li>
-                        <!-- Tu pourras ajouter ton LinkedIn ici quand il sera prêt -->
                     </ul>
                 </div>
             </div>
@@ -270,13 +275,25 @@
 
 <footer class="site-footer">
     <div class="container">
-        <p>© <span id="year"></span> Abdourahim Diouf – Tous droits réservés.</p>
+        <p>© <span id="year"></span> Abdourahim Diouf — Tous droits réservés.</p>
+        <p>Chicoutimi, QC</p>
     </div>
-    <script>
-        // Met automatiquement l'année courante
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
 </footer>
 
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const header = document.getElementById('siteHeader');
+    const toggle = document.getElementById('navToggle');
+    toggle.addEventListener('click', () => {
+        const isOpen = header.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', isOpen);
+    });
+    document.querySelectorAll('.nav a').forEach(link => {
+        link.addEventListener('click', () => {
+            header.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        });
+    });
+</script>
 </body>
 </html>
